@@ -1,0 +1,199 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(138, 26, 126, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 80vw;
+    height: 140vh;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20% 20%;
+}
+
+header img {
+    width: 8vw;
+    height: 15vh;
+    margin-top: 5vw;
+    position: relative;
+    left: 45%;
+    border: 1px solid white;
+    border-radius: 50% 50%;
+}
+
+header p {
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Itim', cursive;
+    color: rgb(77, 77, 179);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+section p {
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(78, 88, 78);
+}
+
+section nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+}
+
+.schools {
+    margin-top: 40px;
+    width: 40%;
+    margin-left: 10px;
+}
+
+table * {
+    border: 1px solid black;
+}
+
+table a {
+    text-decoration: none;
+}
+
+.schools-site {
+
+    color: black;
+    text-decoration: none;
+    border: none;
+}
+
+.certificates {
+    width: 50%;
+    height: 30%;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.certificates a {
+    color: black;
+    text-decoration: none;
+    border: none;
+}
+
+.tables {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+.table-header {
+    background-color: black;
+    color: white;
+}
+
+.table-rows {
+    background-color: rgb(197, 189, 189);
+}
+
+/*Contact Page*/
+.contact-container {
+    width: 30vw;
+    height: 65vh;
+    border: 1px solid black;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 15% 15%;
+    font-family: 'Itim', cursive;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+
+.contact-container form {
+    width: 10vw;
+    height: 15vw;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.navbar-navi {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(32, 23, 23);
+    color: black;
+}
+
+.navbar-navi a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-navi a:hover {
+    text-decoration: none;
+    opacity: 0.5;
+}
+/*About Me*/
+
+.main-content {
+    width: 50vw;
+    height: 120vh;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20% 20%;
+}
+
+.text-area {
+    height: 20vh;
+}
+
+#about-body {
+    text-align: center;
+}
+
+#about-header {
+    height: 20vh;
+}
+
+#language {
+    height: 20vh;
+    margin-top: 100px;
+    margin-left: 120px;
+}
+
+.main-content * {
+    padding: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#profile-img {
+    width: 8vw;
+    height: 15vh;
+    margin-top: 2vw;
+    position: relative;
+    left: 41%;
+    border: 1px solid white;
+    border-radius: 50% 50%;
+}
+
+.thead {
+    background-color: black;
+    color: white;
+}
