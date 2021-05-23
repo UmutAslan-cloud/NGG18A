@@ -184,3 +184,23 @@ function aboutRender() {
     </footer>
 </div>`
 }
+//This codes for Digital-Clock
+let digitalClock = document.getElementById("digi")
+let dropDown = document.querySelector("#city-label");
+let cityName = document.getElementById("city")
+let mainContent = document.getElementById("clock-content")
+let offset = 0;
+
+dropDown.addEventListener("change", function (e) {
+    if (e.target.value == "Beijing") {
+        offset = 7;
+        cityName.innerHTML = e.target.value
+    } else if (e.target.value == "Zürich") {
+        offset = 0;
+        cityName.innerHTML = e.target.value
+    } else if (e.target.value == "Toronto") {
+        offset = -6
+        cityName.innerHTML = e.target.value
+    }
+})
+let timerHandler = setInterval(writeTime, 1000);

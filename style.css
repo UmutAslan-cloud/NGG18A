@@ -197,3 +197,6 @@ table a {
     background-color: black;
     color: white;
 }
+#clock,#city-label {
+    color: white;
+}
